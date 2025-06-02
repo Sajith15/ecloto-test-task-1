@@ -1,0 +1,30 @@
+.product-item-card {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px black;
+    text-align: left;
+}
+
+.product-item-card h3 {
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 4px;
+    color: rgb(35, 49, 65)
+}
+
+.product-price {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgb(45, 58, 73);
+    margin-bottom: 10px;
+}
+
+.add-to-cart-button {
+    width: 100%;
+    padding: 8px 0;
+    font-size: 0.85rem;
+}

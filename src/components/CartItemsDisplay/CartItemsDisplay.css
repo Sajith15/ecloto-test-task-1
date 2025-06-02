@@ -1,0 +1,26 @@
+.cart-items-container.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px black;
+    padding: 0;
+}
+
+.cart-empty-state.card {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px black;
+}
+
+.cart-empty-state p:first-child {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: darkgray;
+    margin-bottom: 8px;
+}
+
+.empty-cart-subtext {
+    font-size: 0.9rem;
+    color: rgb(110, 109, 109);
+}

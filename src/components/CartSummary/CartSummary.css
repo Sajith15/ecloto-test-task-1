@@ -1,0 +1,54 @@
+.cart-summary-card {
+    padding: 16px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px black;
+}
+
+.subtotal-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    padding-bottom: 12px;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 12px;
+}
+
+.subtotal-line span:first-child {
+    font-weight: 500;
+    color: gray;
+}
+
+.subtotal-line .text-currency {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: black;
+}
+
+.free-gift-info p {
+    font-size: 0.9rem;
+    color: gray;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.free-gift-info .unlocked-message {
+    color: green;
+    font-weight: 500;
+}
+
+.progress-bar-container {
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    height: 10px;
+    overflow: hidden;
+}
+
+.progress-bar-filled {
+    height: 100%;
+    background-color: blue;
+    border-radius: 20px;
+    transition: width 0.3s ease-in-out;
+}

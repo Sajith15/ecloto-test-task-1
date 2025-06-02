@@ -1,42 +1,84 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+body {
+  margin: 0;
+  font-family: 'Roboto';
+  background-color: aliceblue;
+  color: black;
+}
+
+.shopping-cart-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+.app-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.main-content-width {
+  width: 100%;
+  max-width: 700px;
+  margin-bottom: 30px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+
+.button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease-in-out;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: darkblue;
+}
+
+
+
+@media (max-width: 768px) {
+  .app-title {
+    font-size: 1.8rem;
   }
-  to {
-    transform: rotate(360deg);
+  .section-title {
+    font-size: 1.3rem;
+  }
+  .main-content-width {
+    max-width: 95%;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+@media (max-width: 480px) {
+  .app-title {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+  .section-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  .button {
+    padding: 8px 12px;
+    font-size: 0.85rem;
+  }
+  .main-content-width {
+    margin-bottom: 20px;
+  }
 }
